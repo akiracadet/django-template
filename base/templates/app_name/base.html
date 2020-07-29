@@ -6,13 +6,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="{% static '{{ app_name }}/base.css' %}">
-
-  <title>{% block title %}{{ camel_case_app_name }}{% endblock title %}</title>
+  <title>{% block title %}Django Application{% endblock title %}</title>
 </head>
 <body>
   {% block body %}{% endblock body %}
-
-  <script src="{% static '{{ app_name }}/base.js' %}"></script>
 </body>
 </html>
