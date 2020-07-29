@@ -5,16 +5,16 @@ from django.contrib.auth.views import PasswordResetCompleteView as _PasswordRese
 
 
 class PasswordResetView(_PasswordResetView):
-    template_name = 'accounts/password_reset.html'
+    template_name = 'account/password_reset.html'
 
 
 class PasswordResetDoneView(_PasswordResetDoneView):
-    template_name = 'accounts/password_reset_done.html'
+    template_name = 'account/password_reset_done.html'
 
 
 class PasswordResetConfirmView(_PasswordResetConfirmView):
-    template_name = 'accounts/password_reset_confirm.html'
+    template_name = 'account/password_reset_confirm.html'
 
 
 class PasswordResetCompleteView(_PasswordResetCompleteView):
-    template_name = 'accounts/password_reset_complete.html'
+    template_name = 'account/password_reset_complete.html'

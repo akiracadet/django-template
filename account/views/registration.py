@@ -1,11 +1,11 @@
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import redirect, render
 from django.views import View
-from accounts.forms import RegistrationForm
+from account.forms import RegistrationForm
 
 
-class RegisterView(View):
-    template_name = 'accounts/register.html'
+class RegistrationView(View):
+    template_name = 'account/registration.html'
 
 
     def get(self, request):

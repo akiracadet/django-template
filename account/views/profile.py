@@ -5,7 +5,7 @@ from django.views import View
 
 
 class ProfileView(LoginRequiredMixin, View):
-    template_name = 'accounts/profile.html'
+    template_name = 'account/profile.html'
     login_url = 'login'
 
     
